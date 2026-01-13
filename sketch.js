@@ -4,5 +4,5 @@ function setup() {
 
 function draw() {
   background(130, 260, 0);
-  ellipse (mouseX, mouseY, 100, 100);
+  line (0, height/2, width, 0);
 }
