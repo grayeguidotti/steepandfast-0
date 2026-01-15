@@ -21,10 +21,10 @@ function draw() {
   myTriangle(.4, width/7, height);
 
   fill(interA);
-  myTriangle(.1, width/5, height/9);
+  myTriangle(.1, width/5, height/10);
 
   fill(interB);
-  myTriangle(.1,width/5, height/3.25);
+  myTriangle(.1,width/5, height/6);
 
   fill(interC);
   myTriangle(.1, width/5, height/2);

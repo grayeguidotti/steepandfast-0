@@ -38,11 +38,8 @@ to view mouse coordinates
     then go to browser > inspect > console
 
 to make dynamic sketch with resizing window size
+`functionwindowResized(){resizeCanvas(windowWidth, windowHeight);}`
 
-`functionwindowResized(){
-resizeCanvas(windowWidth, windowHeight);
-}`
-        
-    then then add to setup
+then add to setup
  `createCanvas(windowWidth, windowHeight);` 
 
