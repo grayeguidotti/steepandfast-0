@@ -2,26 +2,35 @@ let from;
 let to;
 let interA;
 let interB;
+let interC;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   from = color(255, 0, 0);
   to = color(0, 0, 0);
 
-  interA = lerpColor(from, to, 0.33);
-  interB = lerpColor(from, to, 0.66);
+  interA = lerpColor(from, to, 0.22);
+  interB = lerpColor(from, to, 0.44);
+  interC = lerpColor(from, to, 0.80);
 }
 
 function draw() {
   background(255, 255, 255);
+
   fill(from);
-  myTriangle(.3, width/7, height/1);
+  myTriangle(.4, width/7, height);
+
   fill(interA);
-  myTriangle(.1, width/6, height/2);
+  myTriangle(.1, width/5, height/9);
+
   fill(interB);
-  myTriangle(.1,width/6, height/4);
+  myTriangle(.1,width/5, height/3.25);
+
+  fill(interC);
+  myTriangle(.1, width/5, height/2);
+
   fill(to);
-  myTriangle(.3, width/4, height/1);
+  myTriangle(.4, width/4, height);
 }
   //console.log("mouseX: "+mouseX, "mouseY: "+mouseY);
   function myTriangle (amountOfWindow, x, y){
