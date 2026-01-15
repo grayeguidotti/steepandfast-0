@@ -1,18 +1,19 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  background(200);
-  myTriangle(.1,mouseX, mouseY)
+  background(255, 0, 0);
+  myTriangle(.1,width/6, height/4);
+  //console.log("mouseX: "+mouseX, "mouseY: "+mouseY);
   
   function myTriangle (amountOfWindow, x, y){
     push();
     const size = width * amountOfWindow;
     translate(x,y);
-    triangle(0, 0, size, size*2, -size, size*2);
+    triangle(0, -size, size, size, -size, size);
     pop(); 
+
+    
   }
-
-
 }

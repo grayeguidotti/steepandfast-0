@@ -19,6 +19,14 @@ or
 
 `git push`
 
+if you are working on another computer
+
+`git pull`
+
+or if it's the first tome working on another computer for the first tome
+
+`git clone <paste link from github SSH here>`
+
 to find errors
     go to browser that you are viewing in your sketch
     right click + inspect 
@@ -30,10 +38,11 @@ to view mouse coordinates
     then go to browser > inspect > console
 
 to make dynamic sketch with resizing window size
-    `functionwindowResized(){
-        resizeCanvas(windowWidth, windowHeight);
-        }`
+
+`functionwindowResized(){
+resizeCanvas(windowWidth, windowHeight);
+}`
         
     then then add to setup
-    `createCanvas(windowWidth, windowHeight);`
+ `createCanvas(windowWidth, windowHeight);` 
 
