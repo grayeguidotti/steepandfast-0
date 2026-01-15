@@ -21,17 +21,19 @@ function draw() {
   myTriangle(.4, width/7, height);
 
   fill(interA);
-  myTriangle(.1, width/5, height/10);
+  myTriangle(.1, width/5, height/9);
 
   fill(interB);
-  myTriangle(.1,width/5, height/6);
+  myTriangle(.1,width/5, height/3.25);
 
   fill(interC);
   myTriangle(.1, width/5, height/2);
 
   fill(to);
   myTriangle(.4, width/4, height);
+    
 }
+
   //console.log("mouseX: "+mouseX, "mouseY: "+mouseY);
   function myTriangle (amountOfWindow, x, y){
     push();

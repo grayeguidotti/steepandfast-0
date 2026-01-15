@@ -37,9 +37,4 @@ to view mouse coordinates
     `console.log("mouseX: "+mouseX, "mouseY: "+mouseY);`
     then go to browser > inspect > console
 
-to make dynamic sketch with resizing window size
-`functionwindowResized(){resizeCanvas(windowWidth, windowHeight);}`
-
-then add to setup
- `createCanvas(windowWidth, windowHeight);` 
 
