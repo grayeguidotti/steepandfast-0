@@ -4,7 +4,15 @@ function setup() {
 
 function draw() {
   background(200);
-
-  triangle(1, 400, 58, 20, 86, 400);
+  myTriangle(.1,mouseX, mouseY)
   
+  function myTriangle (amountOfWindow, x, y){
+    push();
+    const size = width * amountOfWindow;
+    translate(x,y);
+    triangle(0, 0, size, size*2, -size, size*2);
+    pop(); 
+  }
+
+
 }

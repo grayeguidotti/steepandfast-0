@@ -14,3 +14,22 @@ after important changes
 upload to github 
 
 `git push origin main` 
+
+to find errors
+    go to browser that you are viewing in your sketch
+    right click + inspect 
+    select console tab
+    view error
+
+to view mouse coordinates
+    `console.log("mouseX: "+mouseX, "mouseY: "+mouseY);`
+    then go to browser > inspect > console
+
+to make dynamic sketch size:
+    declare a function:
+    `function windowResized(){
+        resizeCanvas(windowWidth, windowHeight);
+    then add to setup:
+    `createCanvas(windowWidth, windowHeight);
+    
+    }
