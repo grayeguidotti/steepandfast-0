@@ -16,6 +16,7 @@ upload to github
 `git push origin main` 
 
 or
+
 `git push`
 
 to find errors
@@ -32,6 +33,7 @@ to make dynamic sketch with resizing window size
     `functionwindowResized(){
         resizeCanvas(windowWidth, windowHeight);
         }`
+        
     then then add to setup
     `createCanvas(windowWidth, windowHeight);`
 
