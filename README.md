@@ -15,6 +15,9 @@ upload to github
 
 `git push origin main` 
 
+or
+`git push`
+
 to find errors
     go to browser that you are viewing in your sketch
     right click + inspect 
@@ -25,11 +28,10 @@ to view mouse coordinates
     `console.log("mouseX: "+mouseX, "mouseY: "+mouseY);`
     then go to browser > inspect > console
 
-to make dynamic sketch size:
-    declare a function:
-    `function windowResized(){
+to make dynamic sketch with resizing window size
+    `functionwindowResized(){
         resizeCanvas(windowWidth, windowHeight);
-    then add to setup:
-    `createCanvas(windowWidth, windowHeight);
-    
-    }
+        }`
+    then then add to setup
+    `createCanvas(windowWidth, windowHeight);`
+
