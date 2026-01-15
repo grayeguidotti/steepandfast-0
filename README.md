@@ -9,7 +9,7 @@ after adding files
 
 after important changes 
 
-`git commit -am 'useful commit message'`
+`git commit -am'useful commit message'`
 
 upload to github 
 
