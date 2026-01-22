@@ -17,20 +17,20 @@ function setup() {
 function draw() {
   background(255, 255, 255);
 
-  fill(from);
+  fill(from);   //large lightest
   myTriangle(.4, width/7, height);
 
   fill(interA);
-  myTriangle(.1, width/5, height/7);
+  myTriangle(.1, width/5, height/7); //top
 
   fill(interB);
-  myTriangle(.1,width/5, height/4);
+  myTriangle(.1,width/5, height/4); //middle
 
   fill(interC);
-  myTriangle(.1, width/5, height/2.75);
+  myTriangle(.1, width/5, height/2.75); //bottom
 
   fill(to);
-  myTriangle(.4, width/4, height);
+  myTriangle(.4, width/4, height); //large darkest
     
 }
 
