@@ -37,4 +37,7 @@ to view mouse coordinates
     `console.log("mouseX: "+mouseX, "mouseY: "+mouseY);`
     then go to browser > inspect > console
 
+to view most recent push 
+
+`git status`
 
