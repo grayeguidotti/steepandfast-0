@@ -1,8 +1,10 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: 20;
+  padding: 25;
 }
 
 canvas {
   display: block;
+  max-height: 100%;
+  max-width: 100%;
 }
