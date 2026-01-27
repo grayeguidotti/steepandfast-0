@@ -21,13 +21,13 @@ function draw() {
   myTriangle(.3, width/7, height);
 
   fill(interA);
-  myTriangle(.1, width/5, height/10); //top
+  myTriangle(.05, width/5, height/10); //top
 
   fill(interB);
-  myTriangle(.1,width/5, height/6); //middle
+  myTriangle(.05,width/5, height/6); //middle
 
   fill(interC);
-  myTriangle(.1, width/5, height/4); //bottom
+  myTriangle(.05, width/5, height/4); //bottom
 
   fill(to);
   myTriangle(.3, width/4, height); //large darkest
